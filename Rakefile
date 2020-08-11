@@ -21,6 +21,9 @@ namespace :db do
 
   desc "start console"
   task :console do
+    def reload!
+      puts "hello"
+    end
     Pry.start
   end
 end
